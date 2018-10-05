@@ -1,0 +1,31 @@
+@import "variables";
+.ul-course{
+  background: white;
+  padding: 10px 15px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+.course-title{
+  font-weight: 400;
+  font-size: 18px;
+}
+.course-des{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.course-teacher{
+  font-size: 16px;
+}
+.course-price{
+  float: right;
+  right: 10px;
+  font-size: 18px;
+  color: $them-color;
+}
+.course-count{
+  font-size: 12px;
+  color: #999;
+}

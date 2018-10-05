@@ -1,0 +1,12 @@
+stages:
+  - prod
+
+production:
+  stage: prod
+  script:
+    - ./scripts/build.sh 47.104.196.79 lfe-wechat-mobile prod
+  tags:
+    - lfe-wechat-m
+      #  only:
+      #    - /^Deploy .*$/
+      #    - master
